@@ -107,19 +107,42 @@ Table 4:
 ![alt text](https://github.com/dylankrish/pfizer-python-clinical-dosing/blob/main/graphs/Table4-2.png?raw=true)
 
 2.	Effect of dose range on the optimal solution
+
 3 tab version range; range [25, 100, lowestMfg 20]
+
 3 tablet version; range [50, 200, lowestMfg 20] (20, 23, 28 with average 38.34437086092715)
+
 3 tablet version (+penalty); range [100,300, lowestMfg 20] – BASELINE (20 22 27 with average 10.796019900497512)
+
 3 tab version; range [150,400, lowestMfg 20] (20 21 48 with average 9.524793388429751)
 
-![alt text](https://github.com/dylankrish/pfizer-python-clinical-dosing/blob/main/graphs/N2-1.png?raw=true)
 
-![alt text](https://github.com/dylankrish/pfizer-python-clinical-dosing/blob/main/graphs/N2-2.png?raw=true)
+| Dose range | Top three solution(s) and average tablets dosed (DoseValues3 without penalty) |
+| --- | --- |
+| 25 mg to 100 mg (min tablet strength 20 mg) | 20 mg, 24 mg, 31 mg (average  2.526315789473684 tablets)<br/>20 mg, 25 mg, 33 mg (average  2.4473684210526314 tablets)
+| 50 mg to 200 mg (min tablet strength 20 mg) | 20 mg, 23 mg, 28 mg (average  5.231788079470198 tablets)<br/>20 mg, 22 mg, 27 mg (average  5.364238410596027 tablets)<br/>20 mg, 23, 27 mg (average  5.264900662251655 tablets)
+| 100 mg to 300 mg (min tablet strength 20 mg) | 20 mg, 22 mg, 27 mg (average 8.308457711442786 tablets)<br/>20 mg, 21 mg, 26 mg (average 8.542288557213931 tablets)<br/>20 mg, 21 mg, 29 mg (average 8.114427860696518 tablets)
+| 150 mg to 400 mg (min tablet strength 20 mg) | 20 mg, 22 mg, 37 mg (average  9.52988047808765 tablets)<br/>20 mg, 22 mg, 47 mg (average 8.944223107569721 tablets)<br/>22 mg, 23 mg, 36 mg (average  9.450199203187251 tablets)
 
-![alt text](https://github.com/dylankrish/pfizer-python-clinical-dosing/blob/main/graphs/N2-3.png?raw=true)
+3. Effect of having less/more dose values
+	
+    2 tablet; [50,150, lowestMfg 20] (20 26 with average 212.35643564356437)
+	
+    3 tabs; [50,150, lowestMfg 20] (20 23 28 with average 53.742574257425744)
+	
+    4 tabs; [50,150, lowestMfg 20] (20 21 26 29 with average 17.95049504950495)
 
-![alt text](https://github.com/dylankrish/pfizer-python-clinical-dosing/blob/main/graphs/N2-4.png?raw=true)
+    5 tabs; [50,150, lowestMfg 20]
 
+![alt text](https://github.com/dylankrish/pfizer-python-clinical-dosing/blob/main/graphs/N3-1.png?raw=true)
+
+![alt text](https://github.com/dylankrish/pfizer-python-clinical-dosing/blob/main/graphs/N3-2.png?raw=true)
+
+| Dose range | Top three solution(s) and average tablets dosed (DoseValuesX without penalty) |
+| --- | --- |
+| 50 mg to 150 mg, 2 tablets (min tablet strength 20 mg) | 20 mg, 26 mg (average  4.435643564356436 tablets)<br/>20 mg, 28 mg (average  4.207920792079208 tablets)<br/>20 mg, 24 mg (average  4.405940594059406 tablets)
+| 50 mg to 150 mg, 3 tablets (min tablet strength 20 mg) | 20 mg, 23 mg, 28 mg (average 4.237623762376238 tablets)<br/>20 mg, 22 mg, 27 mg (average 4.336633663366337 tablets)<br/>20 mg, 23 mg, 27 mg (average 4.247524752475248 tablets)
+| 50 mg to 150 mg, 4 tablets (min tablet strength 20 mg) | 20 mg, 21 mg, 25 mg, 32 mg (average  3.98019801980198 tablets)<br/>20  mg, 22  mg, 25 mg, 32 mg (average  4.069306930693069 tablets)
 
 
 *This is a version of the paper in GitHub's .md format for readme. Some parts may be unfinished as this is a draft version. The original file in PDF format will be found in /manuscript/Manuscript - Tablet Clinical Dosing.pdf*
