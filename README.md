@@ -92,6 +92,8 @@ Table 4 presents the top five solutions obtained by applying our clinical-dosing
 
 For the best solution obtained (comprised of 15, 16, and 19 mg tablets), Fig. 2 depicts the optimal dosing regime for the dosing range of interest (50 to 150 mg). For each dose, the graph shows the number of tablets of each type that should be administered. For some dose values, e.g., 52, 55, 56, 58, 59, 71, and 74 mg, it is not possible to achieve an exact dose using the tablet strengths.
 
+
+Table 4:
 | Dose range | Top 5 solution and average tablets dosed (DoseValues3 without penalty) |
 | --- | --- |
 | 50 mg to 150 mg, 3 tablets  (min tablet strength 15 mg) | 15 mg, 16 mg, 19 mg (average 5.821782178217822 tablets)
@@ -100,9 +102,9 @@ For the best solution obtained (comprised of 15, 16, and 19 mg tablets), Fig. 2 
 | `` | 15 mg, 17 mg, 20 mg (average  5.584158415841584 tablets)
 | `` | 15 mg, 17 mg, 22 mg (average  5.475247524752476 tablets)
 
-![alt text](https://github.com/dylankrish/pfizer-python-clinical-dosing/blob/main/graphs/Picture1.png?raw=true)
+![alt text](https://github.com/dylankrish/pfizer-python-clinical-dosing/blob/main/graphs/Table4-1.png?raw=true)
 
-![alt text](https://github.com/dylankrish/pfizer-python-clinical-dosing/blob/main/graphs/Picture2.png?raw=true)
+![alt text](https://github.com/dylankrish/pfizer-python-clinical-dosing/blob/main/graphs/Table4-2.png?raw=true)
 
 2.	Effect of dose range on the optimal solution
 3 tab version range; range [25, 100, lowestMfg 20]
@@ -110,5 +112,14 @@ For the best solution obtained (comprised of 15, 16, and 19 mg tablets), Fig. 2 
 3 tablet version (+penalty); range [100,300, lowestMfg 20] – BASELINE (20 22 27 with average 10.796019900497512)
 3 tab version; range [150,400, lowestMfg 20] (20 21 48 with average 9.524793388429751)
 
+![alt text](https://github.com/dylankrish/pfizer-python-clinical-dosing/blob/main/graphs/N2-1.png?raw=true)
 
-*This is a version of the paper in GitHub's .md format for readme. Some parts may be unfinished as this is a draft version. The original file in PDF format can be found in /manuscript/Manuscript - Tablet Clinical Dosing.pdf*
+![alt text](https://github.com/dylankrish/pfizer-python-clinical-dosing/blob/main/graphs/N2-2.png?raw=true)
+
+![alt text](https://github.com/dylankrish/pfizer-python-clinical-dosing/blob/main/graphs/N2-3.png?raw=true)
+
+![alt text](https://github.com/dylankrish/pfizer-python-clinical-dosing/blob/main/graphs/N2-4.png?raw=true)
+
+
+
+*This is a version of the paper in GitHub's .md format for readme. Some parts may be unfinished as this is a draft version. The original file in PDF format will be found in /manuscript/Manuscript - Tablet Clinical Dosing.pdf*
