@@ -100,9 +100,9 @@ For the best solution obtained (comprised of 15, 16, and 19 mg tablets), Fig. 2 
 | `` | 15 mg, 17 mg, 20 mg (average  5.584158415841584 tablets)
 | `` | 15 mg, 17 mg, 22 mg (average  5.475247524752476 tablets)
 
-![alt text](https://github.com/dylankrish/pfizer-python-clinical-dosing/blob/main/graphs/Picture1.png?raw=true
+![alt text](https://github.com/dylankrish/pfizer-python-clinical-dosing/blob/main/graphs/Picture1.png?raw=true)
 
-![alt text](https://github.com/dylankrish/pfizer-python-clinical-dosing/blob/main/graphs/Picture2.png?raw=true
+![alt text](https://github.com/dylankrish/pfizer-python-clinical-dosing/blob/main/graphs/Picture2.png?raw=true)
 
 2.	Effect of dose range on the optimal solution
 3 tab version range; range [25, 100, lowestMfg 20]
